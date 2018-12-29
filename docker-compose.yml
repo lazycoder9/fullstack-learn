@@ -11,7 +11,9 @@ services:
     volumes_from:
       - bundle_cache
     environment:
-      BUNDLE_PATH: /bundle_cache
+     DATABASE_HOST: db
+     DATABASE_USERNAME: postgres
+     BUNDLE_PATH: /bundle_cache
   db:
     image: postgres:10.3-alpine
   bundle_cache:

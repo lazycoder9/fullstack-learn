@@ -15,3 +15,6 @@ compose-test:
 
 compose-migrate:
 	docker-compose run web bin/rails db:migrate
+
+bundle-install:
+	docker-compose run web bundle install

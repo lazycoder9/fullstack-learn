@@ -14,5 +14,8 @@
 //= require activestorage
 //= require_tree .
 //= require jquery
-//= require jquery_ujs
 //= require twitter/bootstrap
+
+$(() => {
+  /* Your JavaScript goes here... */
+});

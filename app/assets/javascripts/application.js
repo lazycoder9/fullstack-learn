@@ -13,3 +13,9 @@
 //= require rails-ujs
 //= require activestorage
 //= require_tree .
+//= require jquery
+//= require twitter/bootstrap
+
+$(() => {
+  /* Your JavaScript goes here... */
+});

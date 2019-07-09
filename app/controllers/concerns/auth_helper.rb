@@ -5,7 +5,7 @@ module Concerns
     end
 
     def sign_out
-      session[:user_id] = nil
+      session.delete(:user_id)
     end
 
     def signed_in?
